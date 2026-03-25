@@ -1,0 +1,363 @@
+arenas:
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Reef
+    x: 0.5
+    y: 73.0
+    z: -36.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Reef
+    x: 0.5
+    y: 73.0
+    z: 37.5
+    pitch: 0.0
+    yaw: -180.0
+  display-name: Reef
+  build: true
+  center:
+    ==: Location
+    world: Reef
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: reef
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: RAW_FISH
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bReef
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Backwood
+    x: -36.5
+    y: 67.0
+    z: 0.5
+    pitch: 0.0
+    yaw: -90.0
+  loc1:
+    ==: Location
+    world: Backwood
+    x: 37.5
+    y: 67.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  display-name: Backwood
+  build: true
+  center:
+    ==: Location
+    world: Backwood
+    x: 0.5
+    y: 70.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+  name: backwood
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: LOG_2
+    damage: 1
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bBackWood
+- ==: Arena
+  loc2:
+    ==: Location
+    world: SpikeRock_Bay
+    x: 0.5
+    y: 77.0
+    z: 39.5
+    pitch: 0.0
+    yaw: -180.0
+  loc1:
+    ==: Location
+    world: SpikeRock_Bay
+    x: 0.5
+    y: 77.0
+    z: -38.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: SpikeRock_Bay
+  build: true
+  center:
+    ==: Location
+    world: SpikeRock_Bay
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: spikerockbay
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: STAINED_CLAY
+    damage: 12
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bSpikeRock
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Highset
+    x: -36.5
+    y: 74.0
+    z: 0.5
+    pitch: 0.0
+    yaw: -90.0
+  loc1:
+    ==: Location
+    world: Highset
+    x: 37.5
+    y: 74.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  display-name: Highset
+  build: true
+  center:
+    ==: Location
+    world: Highset
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+  name: highset
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIRT
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bHighset
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Neon
+    x: -36.5
+    y: 67.0
+    z: 0.5
+    pitch: 0.0
+    yaw: -90.0
+  loc1:
+    ==: Location
+    world: Neon
+    x: 37.5
+    y: 67.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  display-name: Neon
+  build: true
+  center:
+    ==: Location
+    world: Neon
+    x: 0.5
+    y: 70.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+  name: neon
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOL
+    damage: 1
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bNeon
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Fractal
+    x: 0.5
+    y: 67.0
+    z: -38.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Fractal
+    x: 0.5
+    y: 67.0
+    z: 39.5
+    pitch: 0.0
+    yaw: -180.0
+  display-name: Fractal
+  build: true
+  center:
+    ==: Location
+    world: Fractal
+    x: 0.5
+    y: 70.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: fractal
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: STAINED_GLASS
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bFractal
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Skyport
+    x: 0.5
+    y: 77.0
+    z: 38.5
+    pitch: 0.0
+    yaw: -180.0
+  loc1:
+    ==: Location
+    world: Skyport
+    x: 0.5
+    y: 77.0
+    z: -37.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Skyport
+  build: true
+  center:
+    ==: Location
+    world: Skyport
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: skyport
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: STAINED_CLAY
+    damage: 9
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bSkyport
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Museum
+    x: 0.5
+    y: 73.0
+    z: -36.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Museum
+    x: 0.5
+    y: 73.0
+    z: 37.5
+    pitch: 0.0
+    yaw: -180.0
+  display-name: Museum
+  build: true
+  center:
+    ==: Location
+    world: Museum
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: museum
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: QUARTZ_BLOCK
+    damage: 2
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bMuseum
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Fight_Night
+    x: 0.5
+    y: 73.0
+    z: 39.5
+    pitch: 0.0
+    yaw: -180.0
+  loc1:
+    ==: Location
+    world: Fight_Night
+    x: 0.5
+    y: 73.0
+    z: -38.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Fight_Night
+  build: true
+  center:
+    ==: Location
+    world: Fight_Night
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: fightnight
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_BLOCK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bFight
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arena
+    x: 0.5
+    y: 70.0
+    z: -34.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Arena
+    x: 0.5
+    y: 70.0
+    z: 35.5
+    pitch: 0.0
+    yaw: -180.0
+  display-name: Arena
+  build: true
+  center:
+    ==: Location
+    world: Arena
+    x: 0.5
+    y: 70.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: arena
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SANDSTONE
+    damage: 1
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bArena
+  kits:
+  - builduhc

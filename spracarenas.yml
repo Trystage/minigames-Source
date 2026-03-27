@@ -2,22 +2,1541 @@ arenas:
 - ==: Arena
   loc2:
     ==: Location
+    world: Museums
+    x: 0.5
+    y: 71.0
+    z: 36.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Museums
+    x: 41.5
+    y: 109.0
+    z: 41.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Museums
+    x: -40.69999998807907
+    y: 70.0
+    z: -40.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Museums
+    x: 0.5
+    y: 71.0
+    z: -35.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Museum
+  build: true
+  center:
+    ==: Location
+    world: Museums
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: museums
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: PRISMARINE
+    damage: 2
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aMuseum
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Digit
+    x: -6.5
+    y: 71.0
+    z: 0.5
+    pitch: 0.0
+    yaw: -90.0
+  loc1:
+    ==: Location
+    world: Digit
+    x: 7.5
+    y: 71.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  display-name: Digit
+  center:
+    ==: Location
+    world: Digit
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+  name: digit
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: STAINED_GLASS
+    damage: 2
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aDigit
+  kits:
+  - sumo
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Cage_Fight
+    x: 0.5
+    y: 62.0
+    z: 36.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Cage_Fight
+    x: 41.5
+    y: 80.0
+    z: 41.5
+    pitch: 77.76889
+    yaw: -219.20876
+  corner2:
+    ==: Location
+    world: Cage_Fight
+    x: 41.5
+    y: 62.0
+    z: 41.5
+    pitch: 77.76889
+    yaw: -219.20876
+  loc1:
+    ==: Location
+    world: Cage_Fight
+    x: 0.5
+    y: 62.0
+    z: -35.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Cage_Fight
+  center:
+    ==: Location
+    world: Cage_Fight
+    x: 0.5
+    y: 70.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: cagefight
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SMOOTH_BRICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aCage Fight
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Harbor
+    x: -25.5
+    y: 92.0
+    z: 0.5
+    pitch: 0.0
+    yaw: -90.0
+  corner1:
+    ==: Location
+    world: Harbor
+    x: 50.5
+    y: 99.0
+    z: 20.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Harbor
+    x: -49.5
+    y: 90.0
+    z: -19.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Harbor
+    x: 26.5
+    y: 92.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  display-name: Harbor
+  build: true
+  center:
+    ==: Location
+    world: Harbor
+    x: 0.5
+    y: 100.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+  name: harbor
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD
+    damage: 1
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aHarbor
+  kits:
+  - bedfight
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Chicken_Jockey
+    x: 0.5
+    y: 62.0
+    z: 36.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Chicken_Jockey
+    x: 41.5
+    y: 88.0
+    z: 41.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Chicken_Jockey
+    x: -40.5
+    y: 62.0
+    z: -40.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Chicken_Jockey
+    x: 0.5
+    y: 62.0
+    z: -35.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Chicken_Jockey
+  center:
+    ==: Location
+    world: Chicken_Jockey
+    x: 0.5
+    y: 70.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: chickenjockey
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_CHICKEN
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aChicken Jockey
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Coastline
+    x: 0.5
+    y: 62.0
+    z: 36.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Coastline
+    x: 41.5
+    y: 87.0
+    z: 41.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Coastline
+    x: -40.5
+    y: 62.0
+    z: -40.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Coastline
+    x: 0.5
+    y: 62.0
+    z: -35.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Coastline
+  center:
+    ==: Location
+    world: Coastline
+    x: 0.5
+    y: 70.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: coastline
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: WATER_BUCKET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aCoastline
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Zhulong
+    x: 0.5
+    y: 71.0
+    z: 37.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Zhulong
+    x: 41.5
+    y: 100.0
+    z: 41.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Zhulong
+    x: -40.5
+    y: 70.0
+    z: -40.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Zhulong
+    x: 0.5
+    y: 71.0
+    z: -36.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Zhulong
+  center:
+    ==: Location
+    world: Zhulong
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: zhulong
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: STAINED_CLAY
+    damage: 4
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aZhulong
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Zhulongs
+    x: 0.5
+    y: 71.0
+    z: 37.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Zhulongs
+    x: 41.5
+    y: 100.0
+    z: 41.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Zhulongs
+    x: -40.5
+    y: 70.0
+    z: -40.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Zhulongs
+    x: 0.5
+    y: 71.0
+    z: -36.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Zhulong
+  build: true
+  center:
+    ==: Location
+    world: Zhulongs
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: zhulongs
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: STAINED_CLAY
+    damage: 4
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aZhulong
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Reefs
+    x: 0.5
+    y: 71.0
+    z: 36.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Reefs
+    x: 41.5
+    y: 124.0
+    z: 41.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Reefs
+    x: -40.5
+    y: 70.0
+    z: -40.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Reefs
+    x: 0.5
+    y: 71.0
+    z: -35.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Reef
+  build: true
+  center:
+    ==: Location
+    world: Reefs
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: reefs
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: RAW_FISH
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aReef
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Barracuda_Bay
+    x: 0.5
+    y: 62.0
+    z: 36.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Barracuda_Bay
+    x: 41.5
+    y: 100.0
+    z: 41.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Barracuda_Bay
+    x: -40.5
+    y: 62.0
+    z: -40.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Barracuda_Bay
+    x: 0.5
+    y: 62.0
+    z: -35.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Barracuda_Bay
+  center:
+    ==: Location
+    world: Barracuda_Bay
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: barracudabay
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SAND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aBarracuda Bay
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Sumo
+    x: -6.5
+    y: 65.0
+    z: 0.5
+    pitch: 0.0
+    yaw: -90.0
+  loc1:
+    ==: Location
+    world: Sumo
+    x: 7.5
+    y: 65.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  display-name: Sumo
+  center:
+    ==: Location
+    world: Sumo
+    x: 0.5
+    y: 70.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+  name: sumo
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: sumo
+  kits:
+  - sumo
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Shans
+    x: -35.5
+    y: 72.0
+    z: 0.5
+    pitch: 0.0
+    yaw: -90.0
+  corner1:
+    ==: Location
+    world: Shans
+    x: 41.5
+    y: 137.0
+    z: 41.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Shans
+    x: -40.5
+    y: 70.0
+    z: -40.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Shans
+    x: 36.5
+    y: 72.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  display-name: §eshans
+  center:
+    ==: Location
+    world: Shans
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+  name: shans
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: shans
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Cage_Fights
+    x: 0.5
+    y: 62.0
+    z: 36.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Cage_Fights
+    x: 41.5
+    y: 80.0
+    z: 41.5
+    pitch: 77.76889
+    yaw: -219.20876
+  corner2:
+    ==: Location
+    world: Cage_Fights
+    x: -41.5
+    y: 62.0
+    z: -41.5
+    pitch: 77.76889
+    yaw: -219.20876
+  loc1:
+    ==: Location
+    world: Cage_Fights
+    x: 0.5
+    y: 62.0
+    z: -35.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Cage_Fight
+  build: true
+  center:
+    ==: Location
+    world: Cage_Fights
+    x: 0.5
+    y: 70.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: cagefights
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SMOOTH_BRICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aCage Fight
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Facility
+    x: -26.5
+    y: 92.0
+    z: 0.5
+    pitch: 0.0
+    yaw: -90.0
+  corner1:
+    ==: Location
+    world: Facility
+    x: 50.5
+    y: 99.0
+    z: 20.5
+    pitch: 30.654694
+    yaw: -160.04604
+  corner2:
+    ==: Location
+    world: Facility
+    x: -49.5
+    y: 90.0
+    z: -19.5
+    pitch: 8.020173
+    yaw: -85.74109
+  loc1:
+    ==: Location
+    world: Facility
+    x: 27.5
+    y: 92.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  display-name: Facility
+  build: true
+  center:
+    ==: Location
+    world: Facility
+    x: 0.5
+    y: 105.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+  name: facility
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: STAINED_CLAY
+    damage: 9
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aFacility
+  kits:
+  - bedfight
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Mirage
+    x: -27.5
+    y: 92.0
+    z: 0.5
+    pitch: 0.0
+    yaw: -90.0
+  corner1:
+    ==: Location
+    world: Mirage
+    x: 50.5
+    y: 99.0
+    z: 20.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Mirage
+    x: -49.5
+    y: 90.0
+    z: -19.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Mirage
+    x: 28.5
+    y: 92.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  display-name: Mirage
+  build: true
+  center:
+    ==: Location
+    world: Mirage
+    x: 0.5
+    y: 100.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+  name: mirage
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SANDSTONE
+    damage: 2
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aMirage
+  kits:
+  - bedfight
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Ponsen
+    x: -6.5
+    y: 65.0
+    z: 0.5
+    pitch: 0.0
+    yaw: -90.0
+  loc1:
+    ==: Location
+    world: Ponsen
+    x: 7.5
+    y: 65.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  display-name: Ponsen
+  center:
+    ==: Location
+    world: Ponsen
+    x: 0.5
+    y: 70.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+  name: ponsen
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD_STEP
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aPonsen
+  kits:
+  - sumo
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Skyport
+    x: 0.5
+    y: 75.0
+    z: 36.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Skyport
+    x: 41.5
+    y: 93.0
+    z: 41.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Skyport
+    x: -40.5
+    y: 75.0
+    z: -40.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Skyport
+    x: 0.5
+    y: 75.0
+    z: -35.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Skyport
+  center:
+    ==: Location
+    world: Skyport
+    x: 0.5
+    y: 85.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: skyport
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: BEACON
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §aSkyport
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+      blockMaterial: BEACON
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Fort_Royale
+    x: -5.5
+    y: 72.0
+    z: 0.5
+    pitch: 0.0
+    yaw: -90.0
+  corner1:
+    ==: Location
+    world: Fort_Royale
+    x: 10.5
+    y: 70.0
+    z: 10.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Fort_Royale
+    x: -9.5
+    y: 80.0
+    z: -9.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Fort_Royale
+    x: 6.5
+    y: 72.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  display-name: Fortroyale
+  center:
+    ==: Location
+    world: Fort_Royale
+    x: 0.5
+    y: 75.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+  name: fortroyale
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SMOOTH_BRICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aFort Royale
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  kits:
+  - sumo
+  - sumoelo
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Backwood
+    x: -35.5
+    y: 65.0
+    z: 0.5
+    pitch: 0.0
+    yaw: -90.0
+  corner1:
+    ==: Location
+    world: Backwood
+    x: 41.5
+    y: 84.0
+    z: 41.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Backwood
+    x: -40.5
+    y: 64.0
+    z: -40.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Backwood
+    x: 36.5
+    y: 65.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  display-name: Backwood
+  center:
+    ==: Location
+    world: Backwood
+    x: 0.5
+    y: 70.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+  name: backwood
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD
+    damage: 1
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aBackwood
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arena
+    x: 0.5
+    y: 68.0
+    z: 35.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Arena
+    x: 40.5
+    y: 68.0
+    z: 40.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Arena
+    x: -39.5
+    y: 77.0
+    z: -39.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Arena
+    x: 0.5
+    y: 68.0
+    z: -34.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Arena
+  center:
+    ==: Location
+    world: Arena
+    x: 0.5
+    y: 70.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: arena
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SMOOTH_BRICK
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aArena
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Monolith
+    x: 0.5
+    y: 62.0
+    z: 35.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Monolith
+    x: 40.5
+    y: 86.0
+    z: 40.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Monolith
+    x: -39.5
+    y: 61.0
+    z: -39.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Monolith
+    x: 0.5
+    y: 62.0
+    z: -34.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Monolith
+  center:
+    ==: Location
+    world: Monolith
+    x: 0.5
+    y: 70.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: monolith
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIRT
+    damage: 1
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aMonolith
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Spikerock_Bays
+    x: 0.5
+    y: 75.0
+    z: 37.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Spikerock_Bays
+    x: 41.5
+    y: 107.0
+    z: 41.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Spikerock_Bays
+    x: -40.5
+    y: 75.0
+    z: -40.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Spikerock_Bays
+    x: 0.5
+    y: 75.0
+    z: -36.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Spikerock_Bay
+  build: true
+  center:
+    ==: Location
+    world: Spikerock_Bays
+    x: 0.5
+    y: 90.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: spikerockbays
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: STAINED_CLAY
+    damage: 12
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aSpikerock Bay
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Spikerock_Bay
+    x: 0.5
+    y: 75.0
+    z: 37.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Spikerock_Bay
+    x: 41.5
+    y: 107.0
+    z: 41.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Spikerock_Bay
+    x: -40.5
+    y: 75.0
+    z: -40.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Spikerock_Bay
+    x: 0.5
+    y: 75.0
+    z: -36.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Spikerock_Bay
+  center:
+    ==: Location
+    world: Spikerock_Bay
+    x: 0.5
+    y: 90.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: spikerockbay
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: STAINED_CLAY
+    damage: 12
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aSpikerock Bay
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Space_Mine
+    x: -6.5
+    y: 65.0
+    z: 0.5
+    pitch: 0.0
+    yaw: -90.0
+  loc1:
+    ==: Location
+    world: Space_Mine
+    x: 7.5
+    y: 65.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  display-name: Space_Mine
+  center:
+    ==: Location
+    world: Space_Mine
+    x: 0.5
+    y: 70.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+  name: spacemine
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: STAINED_CLAY
+    damage: 9
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aSpace Mine
+  kits:
+  - sumo
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Vivere
+    x: -6.5
+    y: 91.0
+    z: 0.5
+    pitch: 0.0
+    yaw: -90.0
+  loc1:
+    ==: Location
+    world: Vivere
+    x: 7.5
+    y: 91.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  display-name: Vivere
+  center:
+    ==: Location
+    world: Vivere
+    x: 0.5
+    y: 100.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+  name: vivere
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: LOG_2
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aVivere
+  kits:
+  - sumo
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Fractal
+    x: 0.5
+    y: 65.0
+    z: 36.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Fractal
+    x: 41.5
+    y: 87.0
+    z: 41.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Fractal
+    x: -40.5
+    y: 65.0
+    z: -40.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Fractal
+    x: 0.5
+    y: 65.0
+    z: -35.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Fractal
+  center:
+    ==: Location
+    world: Fractal
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: fractal
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: STAINED_GLASS_PANE
+    damage: 2
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aFractal
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Museum
+    x: 0.5
+    y: 71.0
+    z: 36.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Museum
+    x: 41.5
+    y: 109.0
+    z: 41.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Museum
+    x: -40.69999998807907
+    y: 70.0
+    z: -40.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Museum
+    x: 0.5
+    y: 71.0
+    z: -35.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Museum
+  center:
+    ==: Location
+    world: Museum
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: museum
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: PRISMARINE
+    damage: 2
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aMuseum
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Fight_Night
+    x: 0.5
+    y: 71.0
+    z: 36.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Fight_Night
+    x: 41.5
+    y: 94.0
+    z: 41.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Fight_Night
+    x: -40.5
+    y: 70.0
+    z: -40.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Fight_Night
+    x: 0.5
+    y: 71.0
+    z: -35.5
+    pitch: 0.0
+    yaw: 0.0
+  display-name: Fight_Night
+  center:
+    ==: Location
+    world: Fight_Night
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: fightnight
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aFight Night
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
     world: Reef
     x: 0.5
-    y: 73.0
-    z: -36.5
+    y: 71.0
+    z: 36.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Reef
+    x: 41.5
+    y: 124.0
+    z: 41.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Reef
+    x: -40.5
+    y: 70.0
+    z: -40.5
     pitch: 0.0
     yaw: 0.0
   loc1:
     ==: Location
     world: Reef
     x: 0.5
-    y: 73.0
-    z: 37.5
+    y: 71.0
+    z: -35.5
     pitch: 0.0
-    yaw: -180.0
+    yaw: 0.0
   display-name: Reef
-  build: true
   center:
     ==: Location
     world: Reef
@@ -33,331 +1552,163 @@ arenas:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      display-name: §bReef
+      display-name: §aReef
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
 - ==: Arena
   loc2:
     ==: Location
-    world: Backwood
-    x: -36.5
-    y: 67.0
-    z: 0.5
+    world: Abstract
+    x: 0.5
+    y: 62.0
+    z: 36.5
     pitch: 0.0
-    yaw: -90.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Abstract
+    x: -39.5
+    y: 87.0
+    z: 41.5
+    pitch: 0.0
+    yaw: -180.0
+  corner2:
+    ==: Location
+    world: Abstract
+    x: 40.5
+    y: 61.0
+    z: -39.5
+    pitch: 0.0
+    yaw: 0.0
   loc1:
     ==: Location
-    world: Backwood
-    x: 37.5
-    y: 67.0
-    z: 0.5
+    world: Abstract
+    x: 0.5
+    y: 62.0
+    z: -35.5
     pitch: 0.0
-    yaw: 90.0
-  display-name: Backwood
-  build: true
+    yaw: 0.0
+  display-name: Abstract
   center:
     ==: Location
-    world: Backwood
+    world: Abstract
     x: 0.5
     y: 70.0
     z: 0.5
     pitch: 0.0
-    yaw: 0.0
-  name: backwood
-  icon:
-    ==: org.bukkit.inventory.ItemStack
-    type: LOG_2
-    damage: 1
-    amount: 64
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: §bBackWood
-- ==: Arena
-  loc2:
-    ==: Location
-    world: SpikeRock_Bay
-    x: 0.5
-    y: 77.0
-    z: 39.5
-    pitch: 0.0
-    yaw: -180.0
-  loc1:
-    ==: Location
-    world: SpikeRock_Bay
-    x: 0.5
-    y: 77.0
-    z: -38.5
-    pitch: 0.0
-    yaw: 0.0
-  display-name: SpikeRock_Bay
-  build: true
-  center:
-    ==: Location
-    world: SpikeRock_Bay
-    x: 0.5
-    y: 80.0
-    z: 0.5
-    pitch: 0.0
     yaw: 90.0
-  name: spikerockbay
-  icon:
-    ==: org.bukkit.inventory.ItemStack
-    type: STAINED_CLAY
-    damage: 12
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: §bSpikeRock
-- ==: Arena
-  loc2:
-    ==: Location
-    world: Highset
-    x: -36.5
-    y: 74.0
-    z: 0.5
-    pitch: 0.0
-    yaw: -90.0
-  loc1:
-    ==: Location
-    world: Highset
-    x: 37.5
-    y: 74.0
-    z: 0.5
-    pitch: 0.0
-    yaw: 90.0
-  display-name: Highset
-  build: true
-  center:
-    ==: Location
-    world: Highset
-    x: 0.5
-    y: 80.0
-    z: 0.5
-    pitch: 0.0
-    yaw: 0.0
-  name: highset
+  name: abstract
   icon:
     ==: org.bukkit.inventory.ItemStack
     type: DIRT
-    amount: 64
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: §bHighset
-- ==: Arena
-  loc2:
-    ==: Location
-    world: Neon
-    x: -36.5
-    y: 67.0
-    z: 0.5
-    pitch: 0.0
-    yaw: -90.0
-  loc1:
-    ==: Location
-    world: Neon
-    x: 37.5
-    y: 67.0
-    z: 0.5
-    pitch: 0.0
-    yaw: 90.0
-  display-name: Neon
-  build: true
-  center:
-    ==: Location
-    world: Neon
-    x: 0.5
-    y: 70.0
-    z: 0.5
-    pitch: 0.0
-    yaw: 0.0
-  name: neon
-  icon:
-    ==: org.bukkit.inventory.ItemStack
-    type: WOOL
-    damage: 1
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: §bNeon
-- ==: Arena
-  loc2:
-    ==: Location
-    world: Fractal
-    x: 0.5
-    y: 67.0
-    z: -38.5
-    pitch: 0.0
-    yaw: 0.0
-  loc1:
-    ==: Location
-    world: Fractal
-    x: 0.5
-    y: 67.0
-    z: 39.5
-    pitch: 0.0
-    yaw: -180.0
-  display-name: Fractal
-  build: true
-  center:
-    ==: Location
-    world: Fractal
-    x: 0.5
-    y: 70.0
-    z: 0.5
-    pitch: 0.0
-    yaw: 90.0
-  name: fractal
-  icon:
-    ==: org.bukkit.inventory.ItemStack
-    type: STAINED_GLASS
-    damage: 3
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: §bFractal
-- ==: Arena
-  loc2:
-    ==: Location
-    world: Skyport
-    x: 0.5
-    y: 77.0
-    z: 38.5
-    pitch: 0.0
-    yaw: -180.0
-  loc1:
-    ==: Location
-    world: Skyport
-    x: 0.5
-    y: 77.0
-    z: -37.5
-    pitch: 0.0
-    yaw: 0.0
-  display-name: Skyport
-  build: true
-  center:
-    ==: Location
-    world: Skyport
-    x: 0.5
-    y: 80.0
-    z: 0.5
-    pitch: 0.0
-    yaw: 90.0
-  name: skyport
-  icon:
-    ==: org.bukkit.inventory.ItemStack
-    type: STAINED_CLAY
-    damage: 9
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: §bSkyport
-- ==: Arena
-  loc2:
-    ==: Location
-    world: Museum
-    x: 0.5
-    y: 73.0
-    z: -36.5
-    pitch: 0.0
-    yaw: 0.0
-  loc1:
-    ==: Location
-    world: Museum
-    x: 0.5
-    y: 73.0
-    z: 37.5
-    pitch: 0.0
-    yaw: -180.0
-  display-name: Museum
-  build: true
-  center:
-    ==: Location
-    world: Museum
-    x: 0.5
-    y: 80.0
-    z: 0.5
-    pitch: 0.0
-    yaw: 90.0
-  name: museum
-  icon:
-    ==: org.bukkit.inventory.ItemStack
-    type: QUARTZ_BLOCK
     damage: 2
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      display-name: §bMuseum
+      display-name: §aAbstract
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
 - ==: Arena
   loc2:
     ==: Location
-    world: Fight_Night
-    x: 0.5
-    y: 73.0
-    z: 39.5
+    world: White_Crystal
+    x: -6.5
+    y: 65.0
+    z: 0.5
     pitch: 0.0
-    yaw: -180.0
+    yaw: -90.0
   loc1:
     ==: Location
-    world: Fight_Night
+    world: White_Crystal
+    x: 7.5
+    y: 65.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  display-name: White_Crystal
+  center:
+    ==: Location
+    world: White_Crystal
     x: 0.5
-    y: 73.0
-    z: -38.5
+    y: 70.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+  name: whitecrystal
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: QUARTZ_BLOCK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aWhite Crystal
+  kits:
+  - sumo
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Fight_Nights
+    x: 0.5
+    y: 71.0
+    z: 36.5
+    pitch: 0.0
+    yaw: -180.0
+  corner1:
+    ==: Location
+    world: Fight_Nights
+    x: 41.5
+    y: 94.0
+    z: 41.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Fight_Nights
+    x: -40.5
+    y: 70.0
+    z: -40.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Fight_Nights
+    x: 0.5
+    y: 71.0
+    z: -35.5
     pitch: 0.0
     yaw: 0.0
   display-name: Fight_Night
   build: true
   center:
     ==: Location
-    world: Fight_Night
+    world: Fight_Nights
     x: 0.5
     y: 80.0
     z: 0.5
     pitch: 0.0
     yaw: 90.0
-  name: fightnight
+  name: fightnights
   icon:
     ==: org.bukkit.inventory.ItemStack
-    type: GOLD_BLOCK
+    type: GOLD_CHESTPLATE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      display-name: §bFight
-- ==: Arena
-  loc2:
-    ==: Location
-    world: Arena
-    x: 0.5
-    y: 70.0
-    z: -34.5
-    pitch: 0.0
-    yaw: 0.0
-  loc1:
-    ==: Location
-    world: Arena
-    x: 0.5
-    y: 70.0
-    z: 35.5
-    pitch: 0.0
-    yaw: -180.0
-  display-name: Arena
-  build: true
-  center:
-    ==: Location
-    world: Arena
-    x: 0.5
-    y: 70.0
-    z: 0.5
-    pitch: 0.0
-    yaw: 90.0
-  name: arena
-  icon:
-    ==: org.bukkit.inventory.ItemStack
-    type: SANDSTONE
-    damage: 1
-    amount: 64
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: §bArena
-  kits:
-  - builduhc
+      display-name: §aFight Night
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null

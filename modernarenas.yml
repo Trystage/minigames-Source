@@ -1,0 +1,170 @@
+arenas:
+- ==: Arena
+  loc2:
+    ==: Location
+    world: obsidian
+    x: -44.5
+    y: 66.0
+    z: 0.5
+    pitch: 0.0
+    yaw: -90.0
+  loc1:
+    ==: Location
+    world: obsidian
+    x: 45.5
+    y: 66.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  display-name: §eobsidian
+  build: true
+  center:
+    ==: Location
+    world: obsidian
+    x: 0.5
+    y: 90.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+  name: obsidian
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: WHITE_WOOL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":["obsidian"]}'
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_ADDITIONAL_TOOLTIP
+      - HIDE_DYE
+      - HIDE_ARMOR_TRIM
+  kits:
+  - crystal
+  - crystalelo
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Colosseum
+    x: 0.5
+    y: 65.0
+    z: -44.5
+    pitch: 0.0
+    yaw: 0.0
+  corner1:
+    ==: Location
+    world: Colosseum
+    x: 147.5
+    y: 166.0
+    z: 163.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: Colosseum
+    x: -145.5
+    y: 67.0
+    z: -160.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: Colosseum
+    x: 0.5
+    y: 65.0
+    z: 45.5
+    pitch: 0.0
+    yaw: -180.0
+  display-name: Colosseum
+  center:
+    ==: Location
+    world: Colosseum
+    x: 0.5
+    y: 90.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+  name: colosseum
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: CUT_SANDSTONE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Colosseum","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gold"}]}'
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_ADDITIONAL_TOOLTIP
+      - HIDE_DYE
+      - HIDE_ARMOR_TRIM
+- ==: Arena
+  loc2:
+    ==: Location
+    world: plain
+    x: 0.5
+    y: 70.0
+    z: -44.5
+    pitch: 0.0
+    yaw: 0.0
+  corner1:
+    ==: Location
+    world: plain
+    x: 26.5
+    y: 100.0
+    z: 51.5
+    pitch: 0.0
+    yaw: 0.0
+  corner2:
+    ==: Location
+    world: plain
+    x: -25.5
+    y: 54.0
+    z: -50.5
+    pitch: 0.0
+    yaw: 0.0
+  loc1:
+    ==: Location
+    world: plain
+    x: 0.5
+    y: 70.0
+    z: 45.5
+    pitch: 0.0
+    yaw: -180.0
+  display-name: Plain
+  build: true
+  center:
+    ==: Location
+    world: plain
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+  name: plain
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: GRASS_BLOCK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Plain","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gold"}]}'
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_ADDITIONAL_TOOLTIP
+      - HIDE_DYE
+      - HIDE_ARMOR_TRIM
